@@ -9,6 +9,5 @@ def main(name):
         xyun9 = JSdata.get("points", {}).get("points", None)
     return xyun9
 
-
-name = str(input())
+name = str(input("Name "))
 print(main(name))
